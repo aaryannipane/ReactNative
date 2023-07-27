@@ -1,0 +1,6 @@
+react native installation guide on hashnode
+
+points:- 
+	install vscode
+	install openJDK
+	install android studio

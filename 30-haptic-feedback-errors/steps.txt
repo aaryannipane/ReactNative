@@ -1,0 +1,9 @@
+rollthedice05
+
+install package 
+npm i react-native-haptic-feedback  
+
+then manually link this package read the documentation
+
+just don't do this line step
+packages.add(new RNReactNativeHapticFeedbackPackage());

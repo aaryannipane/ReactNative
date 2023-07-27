@@ -1,0 +1,25 @@
+-check connected devices 
+$adb devices
+
+-create react-native project 
+$npx react-native init <project-name>
+# don't start project name with number
+
+connect your device with debugging on
+
+-run app on android device 
+$npx react-native run-android
+new window pop up select 'a'
+$a 
+
+
+we will get error. To solve this error we have to create file in folder android 
+projectName/android 
+    local.properties
+        // for android
+        sdk.dir=C\:\\Users\\aryan\\AppData\\Local\\Android\\Sdk
+
+after creating file again run the same command
+$npx react-native run-android
+new window pop up select 'a'
+$a 

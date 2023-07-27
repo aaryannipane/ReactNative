@@ -1,0 +1,3 @@
+STYLER02 PROJECT
+
+using loops to display same component multiple times

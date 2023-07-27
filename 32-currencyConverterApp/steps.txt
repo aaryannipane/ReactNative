@@ -1,0 +1,7 @@
+currencyConverter 
+
+in this project we are going to learn flatList and use same component multiple times 
+with diff props
+
+install snackBar package that is used to show popup bar on screen
+npm i react-native-snackbar

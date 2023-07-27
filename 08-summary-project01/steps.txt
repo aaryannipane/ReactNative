@@ -1,0 +1,5 @@
+-install
+-environment setup
+-first project 
+-stylesheet
+-component in react-native

@@ -1,0 +1,16 @@
+creating tic tac toe app for logic building
+
+using fontAwesome icons in react native
+
+use react-native-vector-icons for icons 
+$npm i react-native-vector-icons
+after read github repo to make changes in folders
+
+also install types of that package
+$npm i @types/react-native-vector-icons
+
+install snackbar to show pop ups
+npm i react-native-snackbar
+
+watch tic tac toe logic video
+https://youtu.be/qU_gdQ1FvjM

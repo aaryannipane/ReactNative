@@ -1,0 +1,7 @@
+Shopping app
+
+- creating shopping app with react navigations
+- setting up react navigation like previous project (react-navigaiton)
+
+also install this package in navigaiton
+npm install --save @react-native-community/masked-view

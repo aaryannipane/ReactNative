@@ -1,0 +1,31 @@
+spotify music app (watch again for clear logic)
+
+setup track player (watch it) https://youtu.be/TaY3-eBuf7U
+
+learn how to play sound in react native 
+
+we are using react-native-track-player 
+https://rntp.dev/
+
+install package
+npm install --save react-native-track-player
+
+- player takes time to capture memory
+- tracks should be loaded before playing
+- 
+
+
+create services 
+add services to app
+build ui
+
+
+install slider react native (rn bug for android)
+npm i @react-native-community/slider
+
+
+setting all things 
+https://youtu.be/2at5ac3Po9g
+
+
+watch spotify project again to understand react native track player or watch RNTP separate videos 

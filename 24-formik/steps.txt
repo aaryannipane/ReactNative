@@ -1,0 +1,4 @@
+PASSWORD GENERATOR
+formik is used to create react and reactNative forms 
+
+we are also using bouncy checkbox package for checkboxes

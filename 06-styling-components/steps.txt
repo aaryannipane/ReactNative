@@ -1,0 +1,4 @@
+create new file named 'AppPro.tsx'
+and write code in that file and update the path in 'index.tsx' file 
+
+we are learning stylesheet component in this video

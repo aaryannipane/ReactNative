@@ -1,0 +1,11 @@
+STYLER02 PROJECT
+
+create new project with 'npx react-native init <project-name>'
+
+new component ScrollView for scrollable screen when content overflows
+
+we are going to create our custom component so we will place them in separate folder
+folder named 'components'
+
+inside 'component' folder create file 'FlatCards.tsx'
+do rnfs to create function with styleSheet

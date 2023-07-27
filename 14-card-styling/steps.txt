@@ -1,0 +1,82 @@
+STYLER02 PROJECT 
+
+import { Image, StyleSheet, Text, View } from 'react-native'
+import React from 'react'
+
+export default function FancyCard() {
+    return (
+        <View>
+            <Text style={styles.headingText}>Trending Places</Text>
+            <View style={[styles.card, styles.elevatedCard]}>
+                <Image
+                    source={{
+                        uri: "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_1076609483_20191203161752.jpg"
+                    }}
+                    style={styles.cardImage}
+                />
+                <View style={styles.cardBody}>
+                    <Text style={styles.cardTitle}>Sajjangad Fort</Text>
+                    <Text style={styles.cardLabel}>Satara</Text>
+                    <Text style={styles.cardDescription}>The Sajjangad fort is located in the mountainous terrain of the Western Ghats. Being best known as a pilgrimage site, it is one of the protected monuments in West India. This beautiful fort is situated at about 16 kms from the city of Satara. The fort served as a defensive as well as residential construction until it became a monument till date.</Text>
+                    <Text style={styles.cardFooter}>15 mins away</Text>
+                </View>
+            </View>
+        </View>
+    )
+}
+
+const styles = StyleSheet.create({
+    headingText: {
+        fontSize: 24,
+        fontWeight: "bold",
+        paddingHorizontal: 10
+    },
+    card: {
+        height: 360,
+        width: 400,
+        borderRadius: 6,
+        marginVertical: 12,
+        marginHorizontal: 16
+    },
+    elevatedCard: {
+        backgroundColor: "#ebebe0",
+        elevation: 3,
+        shadowOffset: {
+            width:1,
+            height:1
+        }
+    },
+    cardImage: {
+        height: 180,
+        marginBottom: 8,
+        borderTopLeftRadius: 6,
+        borderTopRightRadius: 6
+    },
+    cardBody: {
+        flex: 1,
+        flexGrow: 1,
+        paddingHorizontal: 12
+    },
+    cardTitle: {
+        color: "#000",
+        fontSize: 22,
+        fontWeight: "bold",
+        marginBottom: 6
+    },
+    cardLabel: {
+        color: "#000",
+        fontSize: 14,
+        fontWeight: "300",
+        textTransform: "uppercase"
+    },
+    cardDescription: {
+        color: "#242B2E", 
+        fontSize: 12,
+        textAlign: 'justify',
+        marginVertical: 6
+    },
+    cardFooter: {
+        color: "#000",
+        fontStyle: "italic"
+    }
+})

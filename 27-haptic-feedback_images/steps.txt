@@ -1,0 +1,8 @@
+PROJECT 05 - roll the dice app 
+in this we used vibration and handled images in react native 
+
+- create project folder using react-native command
+
+28 video
+- use images that we have on system 
+- change TS config for accepting .png images

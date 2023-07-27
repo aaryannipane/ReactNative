@@ -1,0 +1,13 @@
+react navigations
+
+https://reactnavigation.org/
+
+read docs of react navigation for installation and more setup
+https://reactnavigation.org/docs/getting-started/
+
+also install stack 
+https://reactnavigation.org/docs/stack-navigator
+
+
+after installation if found error than install this
+npm install --save @react-native-community/masked-view
